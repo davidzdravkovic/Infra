@@ -1,0 +1,6 @@
+.env
+vps-ovh.local.txt
+nginx/certs/**/*.pem
+nginx/certs/**/*.key
+
+
