@@ -28,6 +28,7 @@ services:
       - /etc/letsencrypt:/etc/letsencrypt:ro
       - ${CHATME_DIST}:/usr/share/nginx/chatme:ro
       - ${TASKS_DIST}:/usr/share/nginx/tasks:ro
+      - ${FITCORE_DIST}:/usr/share/nginx/fitcore:ro
     networks: [edge]
 
 networks:
