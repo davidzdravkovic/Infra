@@ -30,6 +30,7 @@ services:
       - ${TASKS_DIST}:/usr/share/nginx/tasks:ro
       - ${FITCORE_DIST}:/usr/share/nginx/fitcore:ro
       - ${ASTIBOSOFT_DIST}:/usr/share/nginx/astibosoft:ro
+      - ${ASTIBOSOFT_ADMIN_DIST}:/usr/share/nginx/astibosoft-admin:ro
     networks: [edge]
 
 networks:
