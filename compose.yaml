@@ -31,6 +31,7 @@ services:
       - ${FITCORE_DIST}:/usr/share/nginx/fitcore:ro
       - ${ASTIBOSOFT_DIST}:/usr/share/nginx/astibosoft:ro
       - ${ASTIBOSOFT_ADMIN_DIST}:/usr/share/nginx/astibosoft-admin:ro
+      - ${PREVIEWS_DIST}:/usr/share/nginx/previews:ro
     networks: [edge]
 
 networks:

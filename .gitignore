@@ -2,5 +2,7 @@
 vps-ovh.local.txt
 nginx/certs/**/*.pem
 nginx/certs/**/*.key
+previews/*
+!previews/.gitkeep
 
 
